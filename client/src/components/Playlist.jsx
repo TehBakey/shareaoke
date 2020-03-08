@@ -226,7 +226,7 @@ class Playlist extends React.Component {
           <TwitterShareButton
             style={{ marginRight: 30 }}
             url="www.twitter.com"
-            title={`Check out my awesome shareaoke playlist!!! http://localhost:8080/#/sharedplaylist/${playlistId}/`}
+            title={`Check out my awesome shareaoke playlist!!! http://shareaoke.appspot.com/#/sharedplaylist/${playlistId}/`}
             className="Demo__some-network__share-button"
           >
             <TwitterIcon

@@ -1,10 +1,15 @@
 const mysql = require('mysql');
 const util = require('util');
 
-const DB_HOST = 'localhost';
-const DB_USER = 'root';
-const DB_PASS = '';
-const DB_NAME = 'shareaoke';
+// const DB_HOST = 'localhost';
+// const DB_USER = 'root';
+// const DB_PASS = '';
+// const DB_NAME = 'shareaoke';
+
+const DB_HOST = '34.67.128.253';
+const DB_NAME = 'shareakoe';
+const DB_USER = 'shareaoke_client';
+const DB_PASS = 'opspark2020';
 
 const connection = mysql.createConnection({
   host: DB_HOST,

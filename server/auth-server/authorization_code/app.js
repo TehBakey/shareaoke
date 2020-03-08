@@ -21,7 +21,7 @@ const cookieParser = require('cookie-parser');
 
 const client_id = 'c1c587506ff546f4a6fa1655d56bba73'; // Your client id
 const client_secret = '6cc4b292ead14b4299e39fcc38f7cdfa'; // Your secret
-const redirect_uri = 'http://localhost:8080/spotify/callback'; // Your redirect uri
+const redirect_uri = 'http://shareaoke.appspot.com/spotify/callback'; // Your redirect uri
 
 /**
  * Generates a random string containing numbers and letters
@@ -119,7 +119,7 @@ spotifyRouter.get('/callback', (req, res) => {
         });
 
         // we can also pass the token to the browser to make requests from there
-        res.redirect(`http://localhost:8080/#/main/#${
+        res.redirect(`http://shareaoke.appspot.com/#/main/#${
           querystring.stringify({
             access_token,
             refresh_token,

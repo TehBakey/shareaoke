@@ -16,7 +16,7 @@ class SignUpLogin extends React.Component {
         <p style={{ color: 'white' }}>
           Please login with Spotify to begin creating your very own Shareaoke playlist!
         </p>
-        <a href="http://localhost:8080/spotify/login">
+        <a href="http://shareaoke.appspot.com/spotify/login">
           <Button variant="success">Login with Spotify</Button>
         </a>
       </Jumbotron>
